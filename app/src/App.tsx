@@ -5,7 +5,6 @@ import SignUp from "./Pages/SignUp";
 import SignIn from "./Pages/SignIn";
 import MyPage from "./Pages/MyPage";
 import "./App.css";
-import MeetingRoom from "./Pages/MeetingRoom";
 
 const App = () => {
   return (
@@ -16,7 +15,7 @@ const App = () => {
           <Route path={`signup`} element={<SignUp/>}></Route>
           <Route path={`signin`} element={<SignIn/>}></Route>
           <Route path={`/mypage/:content`} element={<MyPage/>}></Route>
-          <Route path={`meeting-room/:token`} element={<MeetingRoom/>}></Route>
+
         </Routes>
       </BrowserRouter>
     </AuthProvider>
