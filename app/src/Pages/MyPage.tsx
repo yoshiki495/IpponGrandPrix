@@ -125,7 +125,7 @@ const PersistentDrawerLeft = () => {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Purposeful Activity
+            Ipponグランプリ
           </Typography>
         </Toolbar>
       </AppBar>
@@ -149,16 +149,16 @@ const PersistentDrawerLeft = () => {
         </DrawerHeader>
         <Divider />
         <List>
-          {['会議', '議事録'].map((text, index) => (
+          {['ダッシュボード', '設定'].map((text, index) => (
             <ListItem key={text} disablePadding>
               { index === 0 ? 
-                <ListItemButton href="./meeting">
+                <ListItemButton href="./dashboard">
                   <ListItemIcon>
                     <MeetingRoom />
                   </ListItemIcon>
                   <ListItemText primary={text} />
                 </ListItemButton>
-                :<ListItemButton href="./minutes">
+                :<ListItemButton href="./setting">
                   <ListItemIcon>
                     <Article />
                   </ListItemIcon>

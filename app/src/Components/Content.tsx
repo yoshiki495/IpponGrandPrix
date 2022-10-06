@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import MeetingView from "./Meeting";
-import Minutes from "./Minutes";
+import Dashboard from "./Dashboard";
+import Setting from "./Setting";
 
 
 const Content = () => {
@@ -8,13 +8,13 @@ const Content = () => {
     // the dynamic pieces of the URL.
     const { content } = useParams();
 
-    if ( content === "meeting" ) {
+    if ( content === "dashboard" ) {
         return (
-            <MeetingView />
+            <Dashboard/>
         );
     } else {
         return (
-            <Minutes />
+            <Setting />
         )
     }
   }
