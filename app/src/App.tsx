@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { AuthProvider } from "./context/AuthContext";
+import Home from "./Pages/Home";
+import SignUp from "./Pages/SignUp";
+import SignIn from "./Pages/SignIn";
+import MyPage from "./Pages/MyPage";
+import "./App.css";
+import MeetingRoom from "./Pages/MeetingRoom";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <AuthProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path={`/`} element={<Home/>}></Route>
+          <Route path={`signup`} element={<SignUp/>}></Route>
+          <Route path={`signin`} element={<SignIn/>}></Route>
+          <Route path={`/mypage/:content`} element={<MyPage/>}></Route>
+          <Route path={`meeting-room/:token`} element={<MeetingRoom/>}></Route>
+        </Routes>
+      </BrowserRouter>
+    </AuthProvider>
+  )
 }
 
 export default App;
