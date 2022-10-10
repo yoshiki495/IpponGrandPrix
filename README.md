@@ -25,3 +25,11 @@
 4. ブラウザに接続
 
 [http://localhost:3000/](http://localhost:3000/)
+
+## 設計図
+
+1. drawio を開く
+
+[https://app.diagrams.net/](https://app.diagrams.net/)
+
+2. main ブランチの Blueprint.drawio を選択
