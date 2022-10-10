@@ -4,11 +4,11 @@ import { db } from '../firebase';
 import { collection, addDoc } from "firebase/firestore";
 
 const Dashboard = () => {
-    async function handleCreateMeetingRoom() {
+    async function handleCreateIpponRoom() {
         try {
             const  str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
             const token = Array.from(crypto.getRandomValues(new Uint8Array(16))).map((n)=>str[n%str.length]).join('')
-            await addDoc(collection(db, "MeetingRooms"), {
+            await addDoc(collection(db, "IpponRooms"), {
                 token: token,
             });
             window.open("../../ippon-room/"+token, "_blank");
@@ -21,7 +21,7 @@ const Dashboard = () => {
             <Typography paragraph>
                 ここにダッシュボード画面を実装する。
             </Typography>
-            <Button variant="contained" onClick={handleCreateMeetingRoom} color="secondary">部屋を作る</Button>
+            <Button variant="contained" onClick={handleCreateIpponRoom} color="secondary">部屋を作る</Button>
         </>
     );
 };
