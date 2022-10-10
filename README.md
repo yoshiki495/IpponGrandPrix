@@ -11,7 +11,7 @@
 2. ./src/app/node_modules の作成
 
 ```
-~/IpponGrandPrix $ docker compose run --rm react-app sh -c "cd app && npm install"
+~/IpponGrandPrix $ docker-compose run --rm node sh -c "npm install -g create-react-app && create-react-app reactapp"
 ```
 
 3. コンテナ起動
