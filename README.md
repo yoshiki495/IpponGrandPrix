@@ -26,7 +26,7 @@
 
 [http://localhost:3000/](http://localhost:3000/)
 
-## 設計図
+## 設計図について
 
 1. drawio を開く
 
