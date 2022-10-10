@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-10-07T04:38:08.663Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.4.0" etag="-C3vQq_FoSFySWo5-Sgy" type="github"><diagram id="el4qIduRlKPLxRj2wgTi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-10T03:07:53.935Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DYbPEXPe7HIsermFxiCT" version="20.4.0" type="github">
+  <diagram id="el4qIduRlKPLxRj2wgTi" name="ページ1">
+    <mxGraphModel dx="1168" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nSeAFROf0M7mogkUmehW-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="60" width="630" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="360" width="590" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/unicons-line-vol-5/24/react-128.png" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="128" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/webp,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;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="266.67" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/mobile-phone-smart-screen-128.png" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/mobile-phone-smart-screen-128.png" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/mobile-phone-smart-screen-128.png" vertex="1" parent="1">
+          <mxGeometry x="490" y="380" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/mobile-phone-smart-screen-128.png" vertex="1" parent="1">
+          <mxGeometry x="380" y="380" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/essential-app-1/16/mobile-phone-smart-screen-128.png" vertex="1" parent="1">
+          <mxGeometry x="590" y="380" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-9" value="" style="shape=mxgraph.signs.tech.computer;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="98" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/48-bubbles/48/24.TV-128.png" vertex="1" parent="1">
+          <mxGeometry x="430" y="90" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nSeAFROf0M7mogkUmehW-9" target="nSeAFROf0M7mogkUmehW-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="280" as="sourcePoint" />
+            <mxPoint x="310" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nSeAFROf0M7mogkUmehW-19" target="nSeAFROf0M7mogkUmehW-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="289" y="318" as="sourcePoint" />
+            <mxPoint x="356.7857142857142" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-22" value="&lt;h1&gt;管理画面&lt;/h1&gt;&lt;div&gt;・新規スクリーンの作成&lt;/div&gt;&lt;div&gt;・QRコード生成&amp;amp;送信&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="199" width="150" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-23" value="&lt;h1&gt;スクリーン画面&lt;/h1&gt;&lt;div&gt;・カウント機能&lt;/div&gt;&lt;div&gt;・Ippon判定機能&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="69" width="180" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="nSeAFROf0M7mogkUmehW-24" value="&lt;h1&gt;スマホ画面&lt;/h1&gt;&lt;div&gt;・ボタン機能&lt;/div&gt;&lt;div&gt;・ポイント送信機能&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="545" y="490" width="180" height="91" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
