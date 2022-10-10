@@ -1,5 +1,10 @@
 # IpponGrandPrix
 
+## 目的
+
+既存Ipponグランプリのシステム改修
+>参考：https://youtu.be/ewq23B0YNNA
+
 ## 開発環境について
 
 1. docker image を作成する
