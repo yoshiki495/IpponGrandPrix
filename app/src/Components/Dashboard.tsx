@@ -18,10 +18,6 @@ const Dashboard = () => {
     };
     return (
         <>
-            <Typography paragraph>
-                ここにダッシュボード画面を実装する。
-            </Typography>
-            <Button variant="contained" onClick={handleCreateIpponRoom} color="secondary">部屋を作る</Button>
         </>
     );
 };
