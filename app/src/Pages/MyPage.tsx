@@ -16,8 +16,8 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
-import MeetingRoom from '@mui/icons-material/MeetingRoom';
-import Article from '@mui/icons-material/Article';
+import AppRegistration from '@mui/icons-material/AppRegistration';
+import Monitor from '@mui/icons-material/Monitor';
 import Logout from '@mui/icons-material/Logout';
 import { auth } from '../firebase';
 import { Navigate, useNavigate } from "react-router-dom";
@@ -149,18 +149,18 @@ const PersistentDrawerLeft = () => {
         </DrawerHeader>
         <Divider />
         <List>
-          {['ダッシュボード', '設定'].map((text, index) => (
+          {['お題登録', 'スクリーン操作'].map((text, index) => (
             <ListItem key={text} disablePadding>
               { index === 0 ? 
                 <ListItemButton href="./dashboard">
                   <ListItemIcon>
-                    <MeetingRoom />
+                    <AppRegistration />
                   </ListItemIcon>
                   <ListItemText primary={text} />
                 </ListItemButton>
                 :<ListItemButton href="./setting">
                   <ListItemIcon>
-                    <Article />
+                    <Monitor />
                   </ListItemIcon>
                   <ListItemText primary={text} />
                 </ListItemButton>
@@ -181,7 +181,7 @@ const PersistentDrawerLeft = () => {
                 </ListItemButton> :
                 <ListItemButton>
                   <ListItemIcon>
-                    <Article />
+                    <Monitor />
                   </ListItemIcon>
                   <ListItemText primary={text} />
                 </ListItemButton> 
