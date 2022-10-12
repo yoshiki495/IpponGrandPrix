@@ -29,7 +29,7 @@ export default function SignUp() {
     };
     try {
       await auth.createUserWithEmailAndPassword(user.email, user.password);
-      navigate('../mypage/dashuboard')
+      navigate('../mypage/dashboard')
     } catch (error) {
       console.error(error);
     }
