@@ -1,6 +1,6 @@
 import Typography from '@mui/material/Typography';
 
-const Setting = () => {
+const Operation = () => {
     return (
         <>
             <Typography paragraph>
@@ -10,4 +10,4 @@ const Setting = () => {
     );
 };
 
-export default Setting;
+export default Operation;

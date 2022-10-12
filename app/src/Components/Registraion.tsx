@@ -22,7 +22,7 @@ const currencies = [
     },
   ];
 
-const Dashboard = () => {
+const Registration = () => {
     async function handleCreateIpponRoom() {
         try {
             const  str = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
@@ -82,4 +82,4 @@ const Dashboard = () => {
     );
 };
 
-export default Dashboard;
+export default Registration;

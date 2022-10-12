@@ -152,13 +152,13 @@ const PersistentDrawerLeft = () => {
           {['お題登録', 'スクリーン操作'].map((text, index) => (
             <ListItem key={text} disablePadding>
               { index === 0 ? 
-                <ListItemButton href="./dashboard">
+                <ListItemButton href="./registration">
                   <ListItemIcon>
                     <AppRegistration />
                   </ListItemIcon>
                   <ListItemText primary={text} />
                 </ListItemButton>
-                :<ListItemButton href="./setting">
+                :<ListItemButton href="./operation">
                   <ListItemIcon>
                     <Monitor />
                   </ListItemIcon>

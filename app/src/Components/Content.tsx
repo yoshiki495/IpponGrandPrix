@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
-import Dashboard from "./Dashboard";
-import Setting from "./Setting";
+import Registration from "./Registraion";
+import Operation from "./Operation";
 
 
 const Content = () => {
@@ -8,13 +8,13 @@ const Content = () => {
     // the dynamic pieces of the URL.
     const { content } = useParams();
 
-    if ( content === "dashboard" ) {
+    if ( content === "registration" ) {
         return (
-            <Dashboard/>
+            <Registration/>
         );
     } else {
         return (
-            <Setting />
+            <Operation />
         )
     }
   }
