@@ -29,7 +29,7 @@ export default function SignIn() {
     });
     try {
       auth.signInWithEmailAndPassword(user.email, user.password);
-      navigate('../mypage/dashboard')
+      navigate('../mypage/registration')
     } catch (error) {
       console.error(error);
     }
