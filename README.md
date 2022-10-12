@@ -58,6 +58,12 @@ REACT_APP_FIREBASE_STORAGE_BUCKET=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 [http://localhost:3000/](http://localhost:3000/)
 
+## デプロイについて
+
+デプロイ先↓
+[https://ippongrandprixdemo.web.app/](https://ippongrandprixdemo.web.app/)
+
+
 ## 設計図について
 
 1. drawio を開く
